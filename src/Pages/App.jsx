@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 
 // Компоненты
 import { MainLayout } from '../Layouts';
@@ -6,58 +6,13 @@ import { SeminarItem } from '../components';
 import { SeminarModal } from '../components';
 
 // Функции
-import { useServerActions } from '../lib/useServerActions';
+import { useServerActions } from '@/hooks/useServerActions';
+import { useApp } from '@/hooks/useApp';
 
-//Константы
-import { URL } from '@/consts';
 
 export const App = () => {
-    const { loading, fetchData, deleteData, changeData } = useServerActions();
-
-    const [seminars, setSeminars] = useState([]);
-    const [seminarModal, setSeminarModal] = useState(null);
-
-    async function getData() {
-        const data = await fetchData(URL);
-        setSeminars(data);
-    }
-
-    const handleModalOpen = (seminar) => {
-        setSeminarModal(seminar)
-    }
-
-    const handleModalClose = () => {
-        setSeminarModal(null);
-    }
-
-    const handleDelete = async (e, id) => {
-        try {
-            e.stopPropagation();
-            const resp = await deleteData(URL, id);
-
-            if (!resp) console.log('Ошибка удаления');
-
-            console.log(resp);
-            getData();
-
-        } catch (error) {
-            console.error(error)
-        }
-    }
-
-    const handleUpdate = async (id, updatedData) => {
-        try {
-            const resp = await changeData(URL, id, updatedData)
-
-            if (!resp) console.log('Ошибка изменения данных');
-
-            console.log(resp)
-            getData();
-
-        } catch (error) {
-            console.error(error)
-        }
-    }
+    const { loading } = useServerActions();
+    const { seminars, seminarModal, handleModalOpen, handleModalClose, getData, handleDelete, handleUpdate, } = useApp();
 
     useEffect(() => {
         getData();
