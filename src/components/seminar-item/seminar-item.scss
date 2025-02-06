@@ -1,0 +1,100 @@
+@use '@/variables' as v;
+
+.seminar-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    box-shadow: v.$shadow-standart;
+
+    font-family: v.$family-mont;
+
+    transition: 0.3s;
+    position: relative;
+
+    &__buttons-container {
+        position: absolute;
+        width: 100%;
+
+        opacity: 0;
+        transition: 0.3s;
+    }
+
+    &__img-container {
+        width: 100%;
+        height: 200px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 15px;
+        }
+    }
+
+    &__title {
+        @include v.family($font-size: 20px, $font-weight: 600, );
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    &__desc {
+        color: v.$dark-grey;
+        text-align: center;
+
+        // Эти стили, для того, чтобы ограничить высоту описания, чтобы непоместившееся обработалось с многоточием в конце
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        height: 40px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &__devide-line {
+        border-top: 1px solid v.$grey;
+    }
+
+    &__date-container {
+        display: flex;
+        justify-content: space-around;
+        font-size: 18px;
+
+        .time {
+            color: v.$blue;
+        }
+    }
+
+    &:hover {
+        transform: scale(1.02);
+        cursor: pointer;
+    }
+
+    &:hover &__buttons-container {
+        opacity: 1;
+    }
+
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+}

@@ -1,0 +1,26 @@
+@use '@/variables' as v;
+
+.delete-button-container {
+
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: v.$shadow-standart;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: -30px;
+    right: 0;
+
+    background-color: white;
+
+    .delete-button {
+        font-size: 20px;
+        font-weight: 600;
+        color: rgb(159, 36, 36);
+    }
+}

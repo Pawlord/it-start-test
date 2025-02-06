@@ -1,85 +1,84 @@
 {
   "seminars": [
-  {
-    "id": 1,
-    "title": "Новинки Kosmoteros",
-    "description": "Обзор новых средств и методик от Kosmoteros.",
-    "date": "01.02.2025",
-    "time": "10:00",
-    "photo": "https://picsum.photos/id/1/750/730"
-  },
-  {
-    "id": 2,
-    "title": "Семинар по инновациям в косметологии",
-    "description": "Разбор новейших тенденций в косметологии и трендовых продуктов.",
-    "date": "03.02.2025",
-    "time": "11:00",
-    "photo": "https://picsum.photos/id/2/750/730"
-  },
-  {
-    "id": 3,
-    "title": "Технологии ухода за кожей",
-    "description": "Изучение современных методик ухода за кожей с применением новейших технологий.",
-    "date": "05.02.2025",
-    "time": "12:00",
-    "photo": "https://picsum.photos/id/3/750/730"
-  },
-  {
-    "id": 4,
-    "title": "Актуальные тренды в бьюти-индустрии",
-    "description": "Обсуждение современных трендов и методик в бьюти-индустрии.",
-    "date": "07.02.2025",
-    "time": "13:00",
-    "photo": "https://picsum.photos/id/4/750/730"
-  },
-  {
-    "id": 5,
-    "title": "Секреты профессионалов Kosmoteros",
-    "description": "Семинар с участием ведущих специалистов по использованию средств Kosmoteros.",
-    "date": "09.02.2025",
-    "time": "14:00",
-    "photo": "https://picsum.photos/id/5/750/730"
-  },
-  {
-    "id": 6,
-    "title": "Эффективные методики омоложения",
-    "description": "Обучение современным методикам омоложения и ухода за кожей.",
-    "date": "11.02.2025",
-    "time": "15:00",
-    "photo": "https://picsum.photos/id/6/750/730"
-  },
-  {
-    "id": 7,
-    "title": "Инновационные средства Kosmoteros",
-    "description": "Демонстрация новых продуктов Kosmoteros и их уникальных свойств.",
-    "date": "13.02.2025",
-    "time": "16:00",
-    "photo": "https://picsum.photos/id/7/750/730"
-  },
-  {
-    "id": 8,
-    "title": "Современные тренды в уходе за кожей",
-    "description": "Семинар о новейших трендах в уходе за кожей и эффективных методах лечения.",
-    "date": "15.02.2025",
-    "time": "17:00",
-    "photo": "https://picsum.photos/id/8/750/730"
-  },
-  {
-    "id": 9,
-    "title": "Мастер-класс от Kosmoteros",
-    "description": "Практический мастер-класс по использованию инновационных косметических средств.",
-    "date": "17.02.2025",
-    "time": "18:00",
-    "photo": "https://picsum.photos/id/9/750/730"
-  },
-  {
-    "id": 10,
-    "title": "Будущее косметологии с Kosmoteros",
-    "description": "Обсуждение перспектив развития косметологии и роли инноваций.",
-    "date": "19.02.2025",
-    "time": "19:00",
-    "photo": "https://picsum.photos/id/10/750/730"
-  }
-]
-
+    {
+      "id": "1",
+      "title": "Новинки Kosmoteros",
+      "description": "Обзор новых средств и методик от Kosmoteros.",
+      "date": "01.02.2025",
+      "time": "10:00",
+      "photo": "https://old.cosmogid.ru/uploadedFiles/eshopimages/big/kosmoteros_logo_internet_magazin_Cosmogid_5.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Семинар по инновациям в косметологии",
+      "description": "Разбор новейших тенденций в косметологии и трендовых продуктов.",
+      "date": "03.02.2025",
+      "time": "11:00",
+      "photo": "https://static.tildacdn.biz/tild3835-3231-4538-a533-313233643037/Sans-titre-2048x1152.png"
+    },
+    {
+      "id": "3",
+      "title": "Технологии ухода за кожей",
+      "description": "Изучение современных методик ухода за кожей с применением новейших технологий.",
+      "date": "05.02.2025",
+      "time": "12:00",
+      "photo": "https://avatars.mds.yandex.net/i?id=b6ac3413d241b63946881eed41c769be_l-3237927-images-thumbs&n=13"
+    },
+    {
+      "id": "4",
+      "title": "Актуальные тренды в бьюти-индустрии",
+      "description": "Обсуждение современных трендов и методик в бьюти-индустрии.",
+      "date": "07.02.2025",
+      "time": "13:00",
+      "photo": "https://images.thevoicemag.ru/upload/img_cache/690/690705734258669a96e7c31390d38df0_ce_2370x1244x0x163_cropped_1200x628.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Секреты профессионалов Kosmoteros",
+      "description": "Семинар с участием ведущих специалистов по использованию средств Kosmoteros.",
+      "date": "09.02.2025",
+      "time": "14:00",
+      "photo": "https://avatars.mds.yandex.net/i?id=c2e554ffb5809836e2f164769add3b7b15cde83e-10652863-images-thumbs&n=13"
+    },
+    {
+      "id": "6",
+      "title": "Эффективные методики омоложения",
+      "description": "Обучение современным методикам омоложения и ухода за кожей.",
+      "date": "11.02.2025",
+      "time": "15:00",
+      "photo": "https://clinic.cl/wp-content/uploads/2016/10/pinzas-cara.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Инновационные средства Kosmoteros",
+      "description": "Демонстрация новых продуктов Kosmoteros и их уникальных свойств.",
+      "date": "13.02.2025",
+      "time": "16:00",
+      "photo": "https://avatars.mds.yandex.net/i?id=ab62e22090ddfc47bab3fabc741e7643f37b3c6d-4575620-images-thumbs&n=13"
+    },
+    {
+      "id": "8",
+      "title": "Современные тренды в уходе за кожей",
+      "description": "Семинар о новейших трендах в уходе за кожей и эффективных методах лечения.",
+      "date": "15.02.2025",
+      "time": "17:00",
+      "photo": "https://cnnespanol.cnn.com/wp-content/uploads/2022/10/210118225423-best-skin-care-routine-lead-1.jpeg?quality=100&strip=info"
+    },
+    {
+      "id": "9",
+      "title": "Мастер-класс от Kosmoteros",
+      "description": "Практический мастер-класс по использованию инновационных косметических средств.",
+      "date": "17.02.2025",
+      "time": "18:00",
+      "photo": "https://avatars.mds.yandex.net/i?id=af24fae159940c6483aa1e82af6e39b50eef60ea-5646636-images-thumbs&n=13"
+    },
+    {
+      "id": "10",
+      "title": "Будущее косметологии с Kosmoteros",
+      "description": "Обсуждение перспектив развития косметологии и роли инноваций.",
+      "date": "19.02.2025",
+      "time": "19:00",
+      "photo": "https://avatars.mds.yandex.net/i?id=041b9eace12c489f6158eb989a6940decec6eab0-5582077-images-thumbs&n=13"
+    }
+  ]
 }

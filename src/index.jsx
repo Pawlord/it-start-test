@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+// Стили
+import './normalize.css';
+
 // Компоненты
 import { App } from './Pages/App';
 

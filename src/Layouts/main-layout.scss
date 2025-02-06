@@ -1,0 +1,12 @@
+@use '@/variables' as v;
+
+.main-container {
+    min-height: 100vh;
+    background: rgb(231, 231, 231);
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 400px);
+    justify-content: space-between;
+    gap: 2.5rem;
+}
